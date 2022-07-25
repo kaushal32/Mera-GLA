@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="Signup.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name:</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Father's Name:</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email:</span>
+            <input type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number:</span>  
+            <input type="text" name="phone" placeholder="Enter your Phone No." size="10"/ required> 
+          </div>
+          <div class="input-box">
+            <span class="details">Address:</span>
+            <textarea cols="80" rows="5" placeholder="Enter your Address" value="address" required>  
+            </textarea>
+          </div>
+          
+        </div>
+    
+        <div>
+
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender:</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+
+
+          <div>  
+            <label>   
+              <span class="campus-title">Select Campus:</span>  
+            </label>   
+              
+            <select>  
+            <option value="Campus">--Campus--</option>  
+            <option value="Mathura">Mathura</option>  
+            <option value="Noida">Noida</option>  
+            <option value="Online">Online</option>  
+            </select>  
+            </div>
+
+          <div>  
+            <label>   
+              <span class="course-title">Course:</span>  
+            </label>   
+              
+            <select>  
+            <option value="Course">--Course--</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+            </select>  
+            </div> 
+
+            <div>  
+              <label>   
+                <span class="year-title">Year:</span>  
+              </label>   
+                
+              <select>  
+              <option value="Year">--Year--</option>  
+              <option value="1st">1st</option>  
+              <option value="2nd">2nd</option>  
+              <option value="3rd">3rd</option>
+              <option value="4th">4th</option>  
+              </select>  
+              </div> 
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+
+      <div>
+        <p>Registered User, Click Here To <a href="./login.html" class="btnone">Login</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
